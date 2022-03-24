@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./component/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>My work</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarList"
+                    aria-expanded="false">
+                    <i class="far fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarList">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">About&nbsp;me</a>
+                        <a class="nav-link" href="#">Works</a>
+                        <a class="nav-link" href="#">to&nbsp;order</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="fal fa-phone-square-alt"></i></a>
+                    </div>
+                </div>
+                <img src="./images/Ellipse.png" alt="Ellipse" class="ellipse position-absolute">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="slider position-relative">
+            <img src="./images/Rectangle1.png" alt="Rectangle" class="rectangle1 position-absolute d-xxl-flex d-xl-none d-lg-none d-md-none d-sm-none d-none">
+            <img src="./images/Rectangle2.png" alt="Rectangle" class="rectangle2 position-absolute d-xl-flex d-lg-none d-md-none d-sm-none d-none">
+            <img src="./images/Rectangle1.png" alt="Rectangle" class="rectangle3 position-absolute d-xl-flex d-lg-none d-md-none d-sm-none d-none">
+            <div class="container">
+                <div id="sliderID" class="carousel slide" data-bs-ride="carousel">
+                    <div class="slider-media d-flex overflow-hidden flex-xxl-row flex-xl-column flex-lg-column flex-md-column flex-sm-column flex-column">
+                        <div class="slider-content col-xxl-6 col-xl-10 col-lg-10 col-md-11 col-sm-12 col-12 mx-xl-auto">
+                            <h3 class="slider__text col-xxl-10 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ms-auto">My beginning</h3>
+                            <h1 class="slider__title col-xxl-10 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ms-auto">Self-development and training in the training center</h1>
+                            <div class="col-xxl-10 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ms-auto text-center">
+                                <button class="slider__btn">GET STARTED NOW</button>
+                            </div>
+                            <div class="d-flex mt-5 flex-xxl-row flex-xl-row flex-lg-row flex-md-row flex-sm-row flex-column">
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./images/html.png" alt="html" class="brand__img">
+                                    <h4 class="brand__title">html</h4>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./images/css.png" alt="html" class="brand__img">
+                                    <h4 class="brand__title">css</h4>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./images/bootstrap.png" alt="html" class="brand__boostrap">
+                                    <h4 class="brand__title">bootstrap&nbsp;5</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-inner col-xxl-6 col-xl-10 col-lg-10 col-md-11 col-sm-12 col-12">
+                            <div class="carousel-item active">
+                                <img src="./images/slider1.png" class="h-100" alt="slider">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider2.png" class="h-100" alt="slider">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider1.png" class="h-100" alt="slider">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#sliderID" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#sliderID" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#sliderID" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about position-relative">
+            <img src="./images/about_bg.png" alt="about background" class="about__bg position-absolute end-0">
+            <div class="container d-flex flex-xxl-row flex-xl-column flex-lg-column flex-md-column flex-ms-column flex-column">
+                <div class="about-left col-xxl-6 col-xl-10 col-lg-10 col-md-11 col-sm-11 col-12 position-relative text-center mx-xl-auto mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+                    <img src="./images/about_img.png" alt="about image" class="about__img">
+                    <div class="about-button position-absolute start-0">
+                        <button class="about__btn position-relative">
+                            <a href="#!" class="about__link text-decoration-none text-uppercase">my work for</a>
+                            <span class="position-absolute">5&nbsp;+</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="about-right col-xxl-6 col-xl-10 col-lg-10 col-md-11 col-sm-11 col-12 mx-xl-auto mx-lg-auto mx-md-auto mx-sm-auto mx-auto mt-xl-3 mt-lg-3 mt-md-3 mt-sm-3 mt-3">
+                    <h2 class="about-right__title">What is Frond-End</h2>
+                    <p class="about-right__text text-capitalize">it is the development of of the user interface and functions that run on on the client side of a website or application
+                        This is everything that a user sees when opening a or aweb page and with which he interacts.</p>
+                    <p class="about-right__text text-capitalize">This is everything that a user sees when opening a web page and with which he interacts.</p>
+                    <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-11 col-sm-11 col-12 ms-auto">
+                        <button class="about-right__btn">
+                            <a href="#!" class="about-right__link text-decoration-none text-uppercase">go to work</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="capabilty">
+            <h2 class="section__title text-center text-capitalize">capabilities</h2>
+            <div class="container d-flex align-items-center justify-content-between flex-xxl-row flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column">
+                <div class="capabilty-left accordion accordion-flush col-xxl-6 col-xl-6 col-lg-6 col-md-10 col-sm-12 col-12" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <img src="./images/capabilty__html.png" alt="capabilty html">
+                          <span>HTML</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit   morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          <img src="./images/capabilty__css.png" alt="capabilty css">
+                          <span>css</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit   morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          <img src="./images/capabilty__boots.png" alt="capabilty bootstrap">
+                          <span>bootstrap&nbsp;5</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit   morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="capabilty-right col-xxl-5 col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12">
+                      <img src="./images/capabilty__right.png" alt="capabilty right" class="w-100">
+                  </div>
+            </div>
+        </section>
+        <section class="work position-relative">
+            <img src="./images/work_bg.png" alt="background" class="work__bg position-absolute start-0">
+            <h2 class="section__title text-capitalize text-center">my works</h2>
+            <div class="container">
+                <div class="d-flex flex-xxl-row flex-xl-column flex-lg-column flex-md-column flex-sm-column flex-column align-items-center">
+                    <div class="nav nav-pills flex-column col-xxl-3 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12 align-content-between mb-xl-3 mb-lg-3 mb-md-3 mb-sm-3 mb-3">
+                        <button class="nav-link active" id="nike"       data-bs-toggle="pill" data-bs-target="#nike-tab"    type="button" role="tab" aria-selected="true">Nike</button>
+                        <button class="nav-link"        id="silver"     data-bs-toggle="pill" data-bs-target="#silver-tab"  type="button" role="tab" aria-selected="false">Silver House</button>
+                        <button class="nav-link"        id="orange"     data-bs-toggle="pill" data-bs-target="#orange-tab"  type="button" role="tab" aria-selected="false">Orange Marketing</button>
+                        <button class="nav-link"        id="toshkent"   data-bs-toggle="pill" data-bs-target="#toshkent-tab" type="button" role="tab" aria-selected="false">Toshkent</button>
+                        <button class="nav-link"        id="street"     data-bs-toggle="pill" data-bs-target="#street-tab"  type="button" role="tab" aria-selected="false">Street88</button>
+                        <button class="nav-link"        id="pizza"      data-bs-toggle="pill" data-bs-target="#pizza-tab"   type="button" role="tab" aria-selected="false">Pizzeria</button>
+                    </div>
+                    <div class="tab-content col-xxl-8 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="nike-tab" role="tabpanel">
+                            <div class="d-flex flex-xxl-row flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-lg-center align-items-md-center align-items-sm-center align-items-center">
+                                <img src="./images/nike.jpg" alt="nike" class="col-3 tab__img">
+                                <div class="ms-xxl-5 ms-xl-5 ms-lg-0 ms-md-0 ms-sm-0 ms-0 col-xxl-8 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <h3 class="tab__title">NIKE Layout</h3>
+                                    <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                    <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="silver-tab" role="tabpanel">
+                            <div class="d-flex flex-xxl-row flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-lg-center align-items-md-center align-items-sm-center align-items-center">
+                                <img src="./images/Blue marketing.png" alt="nike" class="col-3 tab__img">
+                                <div class="ms-xxl-5 ms-xl-5 ms-lg-0 ms-md-0 ms-sm-0 ms-0 col-xxl-8 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <h3 class="tab__title">NIKE Layout</h3>
+                                    <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                    <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                </div>
+                            </div></div>
+                        <div class="tab-pane fade" id="orange-tab" role="tabpanel">
+                            <div class="d-flex flex-xxl-row flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-lg-center align-items-md-center align-items-sm-center align-items-center">
+                                <img src="./images/Boulevard market.png" alt="nike" class="col-3 tab__img">
+                                <div class="ms-xxl-5 ms-xl-5 ms-lg-0 ms-md-0 ms-sm-0 ms-0 col-xxl-8 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <h3 class="tab__title">NIKE Layout</h3>
+                                    <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                    <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                </div>
+                            </div></div>
+                        <div class="tab-pane fade" id="toshkent-tab" role="tabpanel">
+                            <div class="d-flex flex-xxl-row flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-lg-center align-items-md-center align-items-sm-center align-items-center">
+                                <img src="./images/OpenShop.png" alt="nike" class="col-3 tab__img">
+                                <div class="ms-xxl-5 ms-xl-5 ms-lg-0 ms-md-0 ms-sm-0 ms-0 col-xxl-8 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <h3 class="tab__title">NIKE Layout</h3>
+                                    <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                    <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                </div>
+                            </div></div>
+                        <div class="tab-pane fade" id="street-tab" role="tabpanel">
+                            <div class="d-flex flex-xxl-row flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-lg-center align-items-md-center align-items-sm-center align-items-center">
+                                <img src="./images/Street88.png" alt="nike" class="col-3 tab__img">
+                                <div class="ms-xxl-5 ms-xl-5 ms-lg-0 ms-md-0 ms-sm-0 ms-0 col-xxl-8 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <h3 class="tab__title">NIKE Layout</h3>
+                                    <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                    <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                </div>
+                            </div></div>
+                        <div class="tab-pane fade" id="pizza-tab" role="tabpanel">
+                            <div class="d-flex flex-xxl-row flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-lg-center align-items-md-center align-items-sm-center align-items-center">
+                                <img src="./images/Vue Cinemas.png" alt="nike" class="col-3 tab__img">
+                                <div class="ms-xxl-5 ms-xl-5 ms-lg-0 ms-md-0 ms-sm-0 ms-0 col-xxl-8 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <h3 class="tab__title">NIKE Layout</h3>
+                                    <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                    <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                </div>
+                            </div></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="col-xxl-6 col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 ms-auto text-center">
+                <img src="./images/logo.png" alt="footer logo" class="footer__logo">
+                <div class="footer__contact d-flex flex-xxl-row flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column">
+                    <a href="#!" class="footer__link text-capitalize text-decoration-none col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">about Me</a>
+                    <a href="#!" class="footer__link text-capitalize col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">Contacts</a>
+                </div>
+                <div class="footer__contact d-flex flex-xxl-row flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column">
+                    <a href="#!" class="footer__link text-capitalize text-decoration-none col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">(239) 555-0108</a>
+                    <a href="#!" class="footer__link text-capitalize text-decoration-none col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">Ronald Richards@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./component/popper.min.js"></script>
+    <script src="./component/bootstrap.min.js"></script>
+</body>
+
+</html>
